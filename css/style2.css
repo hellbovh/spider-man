@@ -1,0 +1,410 @@
+body {
+    background-color: rgb(22, 22, 22);
+    background-image: url(../images/spider_logo.jpg);
+    background-repeat: no-repeat ;
+    background-size: 20%;
+    background-position: top center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 200px;
+}
+
+nav {
+    position: sticky;
+    top: 5px;
+    margin: 25px;
+}
+
+.nav {
+    border-radius: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:dodgerblue;
+    width: 1300px;
+    margin: auto;
+}
+
+.page, .dropdown {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active), .dropdown:hover .dropbtn {
+    background-color:lightcoral;
+}
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {background-color: lightcoral;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    background-color: crimson;
+}
+
+h1 {
+    text-align: center;
+    background-color:crimson;
+    border-radius: 15px;
+    position: relative;
+    width: 1300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.country {
+    width: 30px;
+    height: 15px;
+}
+
+.list-films {
+    font-size: 18px;
+}
+
+.actor {
+    width: 250px;
+}
+
+.logo {
+    width: 500px;
+}
+
+.figcap {
+    background-color:cornflowerblue;
+    width: 340px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.sam-raimi {
+    background-color: crimson;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 1300px;
+}
+
+audio {
+    position: relative;
+    display:flex;
+    margin-top: 10px;
+    left: 790px;
+    top: -500px;
+}
+
+h4 {
+    position: relative;
+    left: 820px;
+    top: -500px;
+    max-width:fit-content;
+}
+
+.marc-webb {
+    background-color: crimson;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 1300px;
+}
+
+.mcu {
+    background-color: crimson;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 1300px;
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    background-color:crimson;
+    border-radius: 15px;
+    width: 1300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+footer {
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width: 1600px) {
+    body {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    h1 {
+        width: 1000px;
+        font-size:x-large;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    .nav {
+        width: 1000px;
+        font-size:large;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    p {
+        width: 1000px;
+        font-size: 19px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .list-films {
+        font-size: 20px;
+    }
+
+    .actor {
+        width: 200px;
+    }
+
+    .logo {
+        width: 400px;
+    }
+
+    h3 {
+        font-size: 27px;
+    }
+
+    .sam-raimi {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .marc-webb {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mcu {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    audio {
+        left: 0px;
+        margin-right: auto;
+        margin-left: 60%;
+    }
+
+    h4 {
+        left: 0px;
+        margin-right: auto;
+        margin-left: 62%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1280px) {
+    body {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    h1 {
+        width: 850px;
+        font-size:xx-large;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    .nav {
+        width: 850px;
+        font-size:larger;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    p {
+        width: 850px;
+        font-size: 21px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .list-films {
+        font-size: 22px;
+    }
+
+    .actor {
+        width: 175px;
+    }
+
+    .logo {
+        width: 325px;
+    }
+
+    h3 {
+        font-size: 29px;
+    }
+
+    .sam-raimi {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .marc-webb {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mcu {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    audio {
+        top: -400px;
+        left: 0px;
+        margin-right: auto;
+        margin-left: 62%;
+    }
+
+    h4 {
+        top: -400px;
+        left: 0px;
+        margin-right: auto;
+        margin-left: 62%;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    h1 {
+        width: 500px;
+        font-size:xx-large;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    .nav {
+        width: 500px;
+        font-size:large;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+
+    p {
+        width: 500px;
+        font-size: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .list-films {
+        font-size: 24px;
+    }
+
+    .actor {
+        width: 175px;
+    }
+
+    .logo {
+        width: 325px;
+    }
+
+    h3 {
+        font-size: 29px;
+    }
+
+    .sam-raimi {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .marc-webb {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mcu {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    audio {
+        display: none;
+    }
+
+    h4 {
+        display: none;
+    }
+
+}
